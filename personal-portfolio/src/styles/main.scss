@@ -1,0 +1,19 @@
+@import 'tailwind.scss';
+@import './partials/colors';
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/typography';
+
+html,
+body {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 100%;
+    width: auto;
+    @apply bg-teal-500 text-white py-4;
+}
