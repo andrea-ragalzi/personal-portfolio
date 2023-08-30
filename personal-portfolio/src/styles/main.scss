@@ -1,19 +1,18 @@
 @import 'tailwind.scss';
-@import './partials/colors';
 @import './partials/variables';
 @import './partials/mixins';
+@import './partials/functions';
 @import './partials/typography';
+@import './partials/components/button';
+@import './partials/components/navbar';
 
 html,
-body {
+body,
+#root {
     height: 100vh;
     width: auto;
     margin: 0;
     padding: 0;
-}
-
-nav {
-    height: 100%;
-    width: auto;
-    @apply bg-teal-500 text-white py-4;
+    @apply bg-palette-50 dark:bg-black text-palette-900 dark:text-palette-400;
+    overflow-y: auto;
 }
