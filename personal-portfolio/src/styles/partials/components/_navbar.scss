@@ -1,7 +1,10 @@
 nav {
     height: 100%;
     width: auto;
-    @apply bg-palette-50 dark:bg-black text-palette-900 dark:text-palette-400 py-4 h-20 mb-10 w-full;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    @apply bg-palette-50 dark:bg-black text-palette-900 dark:text-palette-400 pt-4 h-20 w-full;
 
     .dropdown-menu {
         @apply border-0 w-20 text-center mt-3;
@@ -34,8 +37,17 @@ nav {
 
     svg {
         @apply mt-3;
-        color: theme('colors.palette.400') !important;
         cursor: pointer;
+
+        .MoonOutline {
+            color: theme('colors.palette.800');
+            /* Colore scuro desiderato */
+        }
+
+        .SunnyOutline {
+            color: theme('colors.palette.400');
+            /* Colore chiaro desiderato */
+        }
     }
 
     .accordion {
@@ -46,8 +58,16 @@ nav {
         @apply mx-3 py-3 cursor-pointer text-center;
         border-bottom: 1px solid theme('colors.palette.800');
     }
+
+    p {
+        @apply text-xl dark:text-palette-400;
+
+        @media (min-width: 768px) {
+            @apply text-2xl;
+        }
+    }
 }
 
 .expand-nav {
-    @apply h-80;
+    @apply h-60;
 }

@@ -31,7 +31,7 @@ const Bio = () => {
 
     return (
         <>
-            <div className="block text-center sm:flex sm:gap-10 mt-10 sm:mt-20 lg:w-2/3 mx-auto mb-10">
+            <div className="block text-center sm:flex sm:gap-10 mx-auto mb-10 xl:w-3/4">
                 <div className="w-full sm:w-1/4 mb-7 sm:mb-0 flex justify-center sm:block sm:ps-10">
                     <img src={profileImage} className="rounded-lg w-96" alt="" />
                 </div>
@@ -40,31 +40,31 @@ const Bio = () => {
                     <p>{t('Bio')}</p>
                 </div>
             </div>
-            <div className="md:w-2/3 xl:w-1/2 mx-auto py-10 border-y-2 border-palette-400 dark:border-palette-800 pt-10">
+            <div className="mx-auto py-10 border-y-2 border-palette-400 dark:border-palette-800 bg-palette-100 dark:bg-palette-900 pt-10 xl:w-3/4">
                 <div className="flex flex-wrap justify-center gap-2 mx-auto">
-                    <img src={arduinoSVG} alt="Python" className='w-20'/>
-                    <img src={bashSVG} alt="Python" className='w-20'/>
-                    <img src={bootstrapSVG} alt="Python" className='w-20'/>
-                    <img src={cSVG} alt="Python" className='w-20'/>
-                    <img src={cssSVG} alt="Python" className='w-20'/>
-                    <img src={flaskSVG} alt="Python" className='w-20'/>
-                    <img src={gitSVG} alt="Python" className='w-20'/>
-                    <img src={htmlSVG} alt="Python" className='w-20'/>
-                    <img src={javaSVG} alt="Python" className='w-20'/>
-                    <img src={javascriptSVG} alt="Python" className='w-20'/>
-                    <img src={linuxSVG} alt="Python" className='w-20'/>
-                    <img src={mysqlSVG} alt="Python" className='w-20'/>
-                    <img src={postgresqlSVG} alt="Python" className='w-20'/>
-                    <img src={postmanSVG} alt="Python" className='w-20'/>
+                    <img src={arduinoSVG} alt="Arduino" className='w-20'/>
+                    <img src={bashSVG} alt="Bash" className='w-20'/>
+                    <img src={bootstrapSVG} alt="Bootstrap" className='w-20'/>
+                    <img src={cSVG} alt="C Language" className='w-20'/>
+                    <img src={cssSVG} alt="CSS" className='w-20'/>
+                    <img src={flaskSVG} alt="Flask" className='w-20'/>
+                    <img src={gitSVG} alt="Git" className='w-20'/>
+                    <img src={htmlSVG} alt="HTML" className='w-20'/>
+                    <img src={javaSVG} alt="Java" className='w-20'/>
+                    <img src={javascriptSVG} alt="JS" className='w-20'/>
+                    <img src={linuxSVG} alt="Linux" className='w-20'/>
+                    <img src={mysqlSVG} alt="MySQL" className='w-20'/>
+                    <img src={postgresqlSVG} alt="PostgreSQL" className='w-20'/>
+                    <img src={postmanSVG} alt="Postman" className='w-20'/>
                     <img src={pythonSVG} alt="Python" className='w-20'/>
-                    <img src={reactSVG} alt="Python" className='w-20'/>
-                    <img src={reduxSVG} alt="Python" className='w-20'/>
-                    <img src={raspberrySVG} alt="Python" className='w-20'/>
-                    <img src={sassSVG} alt="Python" className='w-20'/>
-                    <img src={springSVG} alt="Python" className='w-20'/>
-                    <img src={sqliteSVG} alt="Python" className='w-20'/>
-                    <img src={tailwindSVG} alt="Python" className='w-20'/>
-                    <img src={typescriptSVG} alt="Python" className='w-20'/>
+                    <img src={reactSVG} alt="React" className='w-20'/>
+                    <img src={reduxSVG} alt="Redux" className='w-20'/>
+                    <img src={raspberrySVG} alt="Raspberry" className='w-20'/>
+                    <img src={sassSVG} alt="SASS" className='w-20'/>
+                    <img src={springSVG} alt="Spring Boot" className='w-20'/>
+                    <img src={sqliteSVG} alt="SQLite" className='w-20'/>
+                    <img src={tailwindSVG} alt="TailwindCSS" className='w-20'/>
+                    <img src={typescriptSVG} alt="TS" className='w-20'/>
                 </div>
             </div>
         </>

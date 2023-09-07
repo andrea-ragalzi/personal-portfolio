@@ -13,6 +13,34 @@ body,
     width: auto;
     margin: 0;
     padding: 0;
-    @apply bg-palette-50 dark:bg-black text-palette-900 dark:text-palette-400;
+    @apply bg-palette-50 dark:bg-black;
     overflow-y: auto;
+
+    iframe {
+        height: 200px;
+        max-width: 1200px;
+
+        @media (min-width: 768px) {
+            height: 250px;
+        }
+
+        @media (min-width: 1024px) {
+            height: 400px;
+        }
+
+        @media (min-width: 1440px) {
+            height: 500px;
+        }
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+    .project-hidden {
+        opacity: 0.5;
+        overflow: hidden;
+    }
+
+
 }
