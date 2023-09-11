@@ -33,7 +33,7 @@ const projects: Project[] = [
         videoURL: "https://www.youtube.com/embed/k4Bf_elSHGo",
         description: "Crudazon is a demo application that allows you to create, update, and delete products. The Home page displays the available products, and the BackOffice page enables these operations. The application utilizes the Strive API to interact with a server-side database.",
         repoURL: "https://github.com/andrea-ragalzi/epicode/tree/main/week7/project",
-        technologies: "HTML, CSS and JavaScript"
+        technologies: "HTML, CSS, Bootstrap and JavaScript"
     },
     {
         title: "Epicode Benchmark",
