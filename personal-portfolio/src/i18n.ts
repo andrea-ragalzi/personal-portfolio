@@ -43,7 +43,7 @@ const resources = {
             "About Me": "Chi Sono",
             "Contacts": "Contatti",
             "Follow Me": "Seguimi",
-            "Bio": `Ciao a tutti! Sono Andrea, un sviluppatore di 29 anni
+            "Bio": `Ciao a tutti! Sono Andrea, uno sviluppatore di 29 anni
             con una formazione nell'industria automobilistica.
             Dopo tre anni di esperienza in quel settore, ho deciso di
             intraprendere una nuova avventura nel mondo dello sviluppo web.
@@ -52,15 +52,15 @@ const resources = {
             sviluppatore web Full Stack. Ora sono entusiasta di mettere
             in pratica le mie nuove competenze ed esplorare tutte le
             possibilità che lo sviluppo web ha da offrire!
-            Sono pronto ad affrontare questa nuova sfida e contribuire
+            Sono pronto ad affrontare questa nuova sfida e a contribuire
             attivamente a progetti interessanti. Se sei interessato a
-            collaborare o connetterti, non esitare a contattarmi!`,
+            collaborare o a connetterti, non esitare a contattarmi!`,
             "Contact Details": "Dettagli Contatto",
             "I'm based in": "Mi trovo a",
             "For job opportunities, please send an email to": "Per opportunità di lavoro, ti prego di inviare un'email a",
             "If you wish to discuss technical issues, write to": "Se desideri discutere di argomenti tecnici, scrivi a",
             "Loading video": "Caricamento video",
-            "Vegarden is a social blogging network focused on promoting veganism and creating a community of people interested in vegan philosophy. This project aims to create a space where users, known as Zenytes, can express themselves, share experiences, and contribute to the vegan community through their personal blogs.": "Vegarden è un social blogging network focalizzato sulla promozione del veganismo e sulla creazione di una comunità di persone interessate alla filosofia vegana. Questo progetto mira a creare uno spazio in cui gli utenti, chiamati Zenytes, possano esprimersi, condividere esperienze e contribuire alla comunità vegana attraverso i loro blog personali.",
+            "Vegarden is a social blogging network focused on promoting veganism and creating a community of people interested in vegan philosophy. This project aims to create a space where users, known as Zenytes, can express themselves, share experiences, and contribute to the vegan community through their personal blogs.": "Vegarden è un social blogging network focalizzato sulla promozione del veganesimo e sulla creazione di una comunità di persone interessate alla filosofia vegana. Questo progetto mira a creare uno spazio in cui gli utenti, chiamati Zenytes, possano esprimersi, condividere esperienze e contribuire alla comunità vegana attraverso i loro blog personali.",
             "LinkedIn Clone is a social networking application that replicates the functionality of LinkedIn. It provides users with the ability to create, modify, and delete posts, as well as customize their profiles. The application utilizes the Strive API to interact with a server-side database.": "LinkedIn Clone è un'applicazione di social networking che replica la funzionalità di LinkedIn. Permette agli utenti di creare, modificare ed eliminare post, nonché personalizzare i loro profili. L'applicazione utilizza l'API di Strive per interagire con un database lato server.",
             "Crudazon is a demo application that allows you to create, update, and delete products. The Home page displays the available products, and the BackOffice page enables these operations. The application utilizes the Strive API to interact with a server-side database.": "Crudazon è un'applicazione demo che consente di creare, aggiornare ed eliminare dei prodotti. La Home mostra i prodotti disponibili e la pagina di BackOffice permette le operazioni. L'applicazione utilizza l'API di Strive per interagire con un server-side database.",
             "Epicode Benchmark is a clone application of the benchmark on the Epicode platform for students. In this project, the ability to select the difficulty of the timed quiz has been added. At the end, the result is displayed, indicating whether the student has passed or not.": "Epicode Benchmark è un'applicazione clone del benchmark sulla piattaforma Epicode per gli studenti. In questo progetto è stata aggiunta la possibilità di selezionare la difficoltà del quiz a tempo. Alla fine viene mostrato il risultato e viene indicato se lo studente è stato promosso o meno.",
